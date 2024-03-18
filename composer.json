@@ -5,12 +5,14 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Segey",
+            "name": "Sergey",
             "email": "serpp@me.com"
         }
     ],
     "autoload": {
-        "psr-4": {"App\\": "src/"}
+        "psr-4": {
+            "App\\": "src/"
+        }
     }
     "require": {
         "phpstan/phpstan": "^1.9.2",
