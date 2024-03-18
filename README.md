@@ -1,1 +1,1 @@
-# hrxlet-class
+# example classes
