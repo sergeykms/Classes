@@ -12,4 +12,7 @@ use App\Point;
 
 $point1 = new Point(2, 3);
 $result = $point1->getPoint();
-var_dump($point1);
+print_r($result);
+
+$point1->setPoint(10, 20);
+print_r($point1->getPoint());

@@ -17,4 +17,10 @@ class Point
     {
         return [$this->x, $this->y];
     }
+
+    public function setPoint(int $x, int $y): void
+    {
+        $this->x = $x;
+        $this->y = $y;
+    }
 }
