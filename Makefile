@@ -1,8 +1,11 @@
-install:
+auto:
+	composer dump-autoload
+
+install: 
 	composer install
 
-console:
-	composer exec --verbose psysh
+validate:
+	composer validate
 
 lint:
 	composer exec --verbose phpcs -- --standard=PSR12 src tests
