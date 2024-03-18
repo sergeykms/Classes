@@ -1,0 +1,17 @@
+{
+    "name": "Classes",
+    "description": "Example classes",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Segey",
+            "email": "serpp@me.com"
+        }
+    ],
+
+    "autoload": {
+        "psr-4": {"App\\": "src/"}
+    }
+
+}
